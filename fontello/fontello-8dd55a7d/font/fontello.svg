@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="bar" unicode="&#xe804;" d="M50 775c-25 0-50 0-50-12 0-13 17-28 25-38l325-391 0-309-150-50c-25-8-50-25-50-50l550 0c0 25-25 42-50 50l-150 50 0 309 325 391c8 10 25 25 25 38 0 12-25 12-50 12z" horiz-adv-x="850" />
+
+<glyph glyph-name="ferry" unicode="&#xe816;" d="M300 850c-28 0-50-22-50-50l-100 0c-28 0-50-22-50-50l0-303-100-47 100-200 0-100 159-47c6-2 11-3 16-3 5 0 11 2 16 3l134 47 134-47c6-2 11-3 16-3 5 0 11 2 16 3l159 47 0 100 100 200-100 47 0 303c0 28-22 50-50 50l-100 0c0 28-22 50-50 50l-250 0z m-100-150l450 0 0-206-175 81-50 25-50-25-175-81 0 206z m-100-700c-5 0-12-2-16-3l-84-28 0-102 100 33 159-47c6-2 11-3 16-3 5 0 11 2 16 3l134 47 134-47c6-2 11-3 16-3 5 0 11 1 16 3l159 47 100-33 0 102-84 28c-5 1-11 3-16 3s-10-2-16-3l-159-47-134 47c-6 2-11 3-16 3s-11-2-16-3l-134-47-159 47c-7 2-11 3-16 3z" horiz-adv-x="850" />
+</font>
+</defs>
+</svg>

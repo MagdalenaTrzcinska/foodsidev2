@@ -1,0 +1,174 @@
+html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #868e96;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000000;
+}
+
+.logo h1 {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 800;
+    font-size: 33px;
+    color: #fff;
+    transition: all 1s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff6c22;
+}
+
+.active {
+    color: #ff6c22;
+}
+
+.openMobileNav {
+    text-align: center;
+    width: 50px;
+    border: 1px solid #6d6d6d;
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.forComputer-btn {
+    display: none;
+}
+
+.forComputer {
+    visibility: hidden;
+}
+
+.forMobile {
+    display: none;
+}
+
+.forMobile {
+    width: 100%;
+    display: none;
+    background-color: #000000;
+    position: absolute;
+    top: 60px;
+    z-index: 2;
+}
+
+.forMobile-menu {
+    margin-left: 5%;
+    margin-top: 40px;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 250%;
+    width: 100%;
+}
+
+.forMobile-btn {
+    text-align: left;
+    margin-left: 10%;
+    width: 80%;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: #ff6c22;
+    border-radius: 1px;
+    margin-bottom: 10px;
+}
+
+
+@media only screen and (min-width: 900px) {
+    .nav {
+        background-color: transparent;
+    }
+
+    .forComputer-btn {
+        display: block;
+        float: left;
+    }
+
+    .forComputer {
+        visibility: visible;
+        margin-top: 10px;
+    }
+
+    .forComputer-menu {
+        list-style-type: none;
+    }
+
+    .forComputer-btn button {
+        margin-top: 10px;
+        width: 130px;
+        background-color: #ff6c22;
+        border: none;
+        color: white;
+    }
+
+    .openMobileNav {
+        display: none;
+    }
+}
+
+main {
+    position: relative;
+    top:0;
+}
+
+main:after {
+    content: '';
+    border-top: 65px solid transparent;
+    border-right: 100vw solid #eeeeee;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.mainPhoto {
+    background-image: url('img/hero_2.jpg');
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(50%);
+    min-height: 700px;
+    position: relative;
+}
+
+main .info-main {
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: 30%;
+    display: block;
+}
+
+.row {
+    margin: 0;
+}

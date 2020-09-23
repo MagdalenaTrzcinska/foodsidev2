@@ -1,0 +1,188 @@
+@media only screen and (min-width: 900px) {
+    h1 {
+        font-size: 50px;
+        transition: all 1s ease-in-out;
+        -webkit-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    nav {
+        padding-right: 10%;
+        padding-left: 10%;
+        transition: all 1s ease;
+        -webkit-transition: 1s all ease;
+        -o-transition: 1s all ease;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    nav {
+        padding-right: 10%;
+        padding-left: 10%;
+        transition: all 1s ease;
+        -webkit-transition: 1s all ease;
+        -o-transition: 1s all ease;
+    }
+}
+
+h5 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: 200%;
+    width: 60%;
+}
+
+.triangle:after {
+    content: '';
+    background-color: white;
+    border-top: 200px solid #eeeeee;
+    border-right: 2560px solid white;
+    width: 100%;
+    display: block;
+}
+
+.triangle2:after {
+    content: '';
+    background-color: white;
+    border-top: 200px solid white;
+    border-right: 2560px solid #eeeeee;
+    width: 100%;
+    display: block;
+}
+
+
+h3 {
+    font-weight: bolder;
+    font-size: 60px;
+    color: black;
+    letter-spacing: 3px;
+    padding-top: 2%;
+    text-align: center;
+}
+
+
+
+.restaurant {
+    position: relative;
+    z-index: 200;
+    text-align: center;
+    background-color: white;
+}
+
+.restaurant:before,
+.chef:before{
+    content: '';
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ff6c22;
+    height: 3px;
+    display: block;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.chef {
+    background-color: #EEEEEE;
+}
+
+
+.chef__one img {
+    width: 100%;
+    height: 80%;
+}
+
+.chef__one-text {
+    background-color: white;
+    text-align: center;
+    height: 60px;
+}
+
+.chef__one-text span {
+    padding-top: 3%;
+    color: black;
+    margin-bottom: 2px;
+}
+
+
+footer {
+    background-color: white;
+    font-size: 13px;
+}
+
+footer h4 {
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.subsribe {
+    text-align: center;
+}
+
+input[type] {
+    margin-top: 10px;
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    cursor: pointer;
+    outline: none;
+}
+
+.subsribe__button {
+    margin-bottom: 20px;
+    background-color: #ff6c22;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+    outline: none;
+}
+
+.subsribe__button :hover {
+    background-color: #ee5b11;
+}
+
+.social {
+    float: left;
+}
+
+.social i {
+    color: #ff6c22;
+}
+
+.social i :hover {
+    color: black;
+}
+
+.about,
+.info,
+.hours,
+.links {
+    margin-top: 30px;
+}
+
+.links a {
+    color: #ff6c22;
+}
+
+.copy {
+    margin-top: 90px;
+}
+
+span {
+    color: black;
+}
+
+span :hover {
+    color: #dd4a00;
+}
