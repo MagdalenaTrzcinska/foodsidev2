@@ -1,0 +1,50 @@
+main:after {
+    content: '';
+    border-top: 65px solid transparent;
+    border-right: 100vw solid #fff;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+label{
+    margin-top: 30px;
+}
+
+input {
+    width: 90%;
+    height: 45px;
+    outline: none;
+}
+
+input[type=email] {
+    width: 95%;
+}
+
+textarea {
+    width: 95%;
+    border: 1px solid #d6d6d1;
+    height: 200px;
+    max-height: 200px;
+    outline: none;
+}
+
+button {
+    margin-left: 8%;
+    text-align: center;
+    border: none;
+    color: white;
+    font-size: 15px;
+    height: 45px;
+    width: 170px;
+    text-transform: uppercase;
+    background-color: #ff6c22;
+    border-radius: 1px;
+    margin-bottom: 10px;
+}
+
+
+h6 {
+    font-size: 25px;
+    color: black;
+}

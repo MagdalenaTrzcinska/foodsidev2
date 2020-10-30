@@ -1,3 +1,12 @@
+main:after {
+    content: '';
+    border-top: 65px solid transparent;
+    border-right: 100vw solid #eeeeee;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
 @media only screen and (min-width: 1200px) {
     nav {
         padding-right: 10%;
@@ -58,6 +67,16 @@ h3 {
 .recipes {
     padding-top: 50px;
     background-color: #eeeeee;
+}
+
+.recipes:before {
+    content: '';
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ff6c22;
+    height: 3px;
+    display: block;
 }
 
 .ourmenu {

@@ -1,3 +1,11 @@
+main:after {
+    content: '';
+    border-top: 65px solid transparent;
+    border-right: 100vw solid #eeeeee;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
 
 @media only screen and (min-width: 900px) {
     .ourmenu-textAboutTheMeal h4 {
@@ -11,16 +19,6 @@
         color: #ff6c22;
         margin-top: 10%;
     }
-}
-
-
-h6 { /*nie wiem */
-    color: white;
-    font-size: 17px;
-    padding: 10px;
-    background-color: #ff6c22;
-    border-radius: 5px;
-    text-align: center;
 }
 
  h5 {

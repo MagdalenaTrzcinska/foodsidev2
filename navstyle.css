@@ -141,14 +141,6 @@ main {
     top:0;
 }
 
-main:after {
-    content: '';
-    border-top: 65px solid transparent;
-    border-right: 100vw solid #eeeeee;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-}
 
 .mainPhoto {
     background-image: url('img/hero_2.jpg');

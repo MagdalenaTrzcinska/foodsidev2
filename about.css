@@ -1,33 +1,12 @@
-@media only screen and (min-width: 900px) {
-    h1 {
-        font-size: 50px;
-        transition: all 1s ease-in-out;
-        -webkit-transition: all 1s ease-in-out;
-        -o-transition: all 1s ease-in-out;
-    }
+main:after {
+    content: '';
+    border-top: 65px solid transparent;
+    border-right: 100vw solid white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
-
-@media only screen and (min-width: 1200px) {
-    nav {
-        padding-right: 10%;
-        padding-left: 10%;
-        transition: all 1s ease;
-        -webkit-transition: 1s all ease;
-        -o-transition: 1s all ease;
-    }
-
-}
-
-@media only screen and (max-width: 1200px) {
-    nav {
-        padding-right: 10%;
-        padding-left: 10%;
-        transition: all 1s ease;
-        -webkit-transition: 1s all ease;
-        -o-transition: 1s all ease;
-    }
-}
 
 h5 {
     margin-left: auto;
@@ -64,7 +43,6 @@ h3 {
     padding-top: 2%;
     text-align: center;
 }
-
 
 
 .restaurant {
